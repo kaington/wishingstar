@@ -1,0 +1,15 @@
+name: WishingStar
+version: 1.0.0
+main: dev.wishingstar.WishingStarPlugin
+api-version: '1.21'
+description: A giant spinning nether star on a lodestone that listens to your wishes.
+commands:
+  wishingstar:
+    description: Place, remove or get a wishing star
+    usage: "/wishingstar [size] | /wishingstar remove | /wishingstar give"
+    aliases: [ws]
+    permission: wishingstar.admin
+permissions:
+  wishingstar.admin:
+    description: Use /wishingstar
+    default: op

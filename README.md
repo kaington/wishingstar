@@ -1,4 +1,3 @@
-
 # WishingStar
 
 Paper plugin that adds a big spinning nether star floating above a lodestone. You can grab it, throw it into the sky and make a wish.
